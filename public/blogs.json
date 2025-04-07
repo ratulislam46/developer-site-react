@@ -8,7 +8,7 @@
         "Profession": "Student",
         "gender" : "Male",
         "title" : "Web Developer",
-        "skill" : ["HTML", "CSS", "JavaScript", "React"]
+        "skills" : ["HTML", "CSS", "JavaScript", "React"]
         
     },
     {
@@ -20,7 +20,7 @@
         "Profession": "Teacher",
         "gender" : "Male",
         "title" : "UI/UX Designer & Developer",
-        "skill" : ["JavaScript", "React", "PHP", "Phython"]
+        "skills" : ["JavaScript", "React", "PHP", "Phython"]
     },
     {
         "id" : "3",
@@ -31,7 +31,7 @@
         "Profession": "Student",
         "gender" : "Male",
         "title" : "React Enthusiast",
-        "skill" : ["HTML", "JavaScript","C++"]
+        "skills" : ["HTML", "JavaScript","C++"]
     },
     {
         "id" : "4",
@@ -42,6 +42,28 @@
         "Profession": "Student",
         "gender" : "Male",
         "title" : "Open Source Learner",
-        "skill" : ["HTML", "CSS", "JavaScript", "Phython"]
+        "skills" : ["HTML", "CSS", "JavaScript", "Phython"]
+    },
+    {
+        "id" : "5",
+        "name": "Nirob Hossain",
+        "age" : "22",
+        "cover_img": "https://i.ibb.co.com/jk0RxPWc/download-1.png",
+        "author_img": "https://i.ibb.co.com/WNGcL3PR/img.png",
+        "Profession": "Student",
+        "gender" : "Male",
+        "title" : "React Enthusiast",
+        "skills" : ["HTML", "JavaScript","C++"]
+    },
+    {
+        "id" : "6",
+        "name": "Abdulla Al Mamun",
+        "age" : "21",
+        "cover_img" : "https://i.ibb.co.com/BKGSYLSW/download.png",
+        "author_img" : "https://i.ibb.co.com/k2CqmVqN/FB-IMG-1638791236402.jpg",
+        "Profession": "Student",
+        "gender" : "Male",
+        "title" : "Open Source Learner",
+        "skills" : ["HTML", "CSS", "JavaScript", "Phython"]
     }
 ]
