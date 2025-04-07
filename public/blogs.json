@@ -1,0 +1,47 @@
+[
+    {
+        "id" : "1",
+        "name": "Md Ratul Islam",
+        "age" : "21",
+        "cover_img": "https://i.ibb.co.com/jk0RxPWc/download-1.png",
+        "author_img": "https://i.ibb.co.com/WNGcL3PR/img.png",
+        "Profession": "Student",
+        "gender" : "Male",
+        "title" : "Web Developer",
+        "skill" : ["HTML", "CSS", "JavaScript", "React"]
+        
+    },
+    {
+        "id" : "2",
+        "name": "Gias Uddin",
+        "age" : "24",
+        "cover_img" : "https://i.ibb.co.com/BKGSYLSW/download.png",
+        "author_img" : "https://i.ibb.co.com/k2CqmVqN/FB-IMG-1638791236402.jpg",
+        "Profession": "Teacher",
+        "gender" : "Male",
+        "title" : "UI/UX Designer & Developer",
+        "skill" : ["JavaScript", "React", "PHP", "Phython"]
+    },
+    {
+        "id" : "3",
+        "name": "Siam Ahmed",
+        "age" : "22",
+        "cover_img": "https://i.ibb.co.com/jk0RxPWc/download-1.png",
+        "author_img": "https://i.ibb.co.com/WNGcL3PR/img.png",
+        "Profession": "Student",
+        "gender" : "Male",
+        "title" : "React Enthusiast",
+        "skill" : ["HTML", "JavaScript","C++"]
+    },
+    {
+        "id" : "4",
+        "name": "Rahman Sifat",
+        "age" : "21",
+        "cover_img" : "https://i.ibb.co.com/BKGSYLSW/download.png",
+        "author_img" : "https://i.ibb.co.com/k2CqmVqN/FB-IMG-1638791236402.jpg",
+        "Profession": "Student",
+        "gender" : "Male",
+        "title" : "Open Source Learner",
+        "skill" : ["HTML", "CSS", "JavaScript", "Phython"]
+    }
+]
