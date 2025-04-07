@@ -2,10 +2,17 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Navbar from './components/Navbar/Navbar'
-import Added from './components/Added/Added'
+import { useState } from 'react'
 
 function App() {
   
+
+  const [added, setAdded] = useState(0);
+
+  const handleAdded = (blog) => {
+    setAdded([...added, blog])
+  };
+
 
   return (
     <>
@@ -14,10 +21,10 @@ function App() {
 
       <div className="full-container flex gap-5">
           <div className='left-container flex justify-center w-[70%] bg-gray-50'>
-              <Blogs></Blogs>
+              <Blogs handleAdded={handleAdded}></Blogs>
           </div>
           <div className="right-container text-center w-[30%] bg-gray-50">
-              <Added></Added>
+            <h1>Count : {handleAdded.length} </h1>
           </div>
       </div>
       

@@ -3,7 +3,7 @@ import React from 'react';
 // import { FaBeer } from "react-icons/fa";
 import { IoPersonAddSharp } from "react-icons/io5";
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleAdded}) => {
     
     const {name, cover_img, author_img} = blog;
     // console.log(name, id, title)
@@ -21,7 +21,7 @@ const Blog = ({blog}) => {
                     <div className='flex justify-between align center items-center'>
                         <h2 className="card-title">{name}</h2>
 
-                        <button> <IoPersonAddSharp size={24} /> </button>
+                        <button onClick={()=>handleAdded(blog)}> <IoPersonAddSharp size={24} /> </button>
 
                         <img className='w-8 rounded-full ring ring-offset-2 ring-primary ring-offset-base-100' src={author_img} alt="" />
                     </div>
