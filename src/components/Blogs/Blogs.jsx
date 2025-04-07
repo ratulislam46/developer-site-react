@@ -13,7 +13,7 @@ const Blogs = ({handleAdded}) => {
     }, []);
 
     return (
-        <div className='grid lg:grid-cols-2 gap-4'>
+        <div className='grid lg:grid-cols-2 gap-4 mt-5'>
 
             {
                 blogs.map(blog => <Blog handleAdded={handleAdded} key={blog.id} blog={blog}></Blog> )

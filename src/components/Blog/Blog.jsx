@@ -9,10 +9,10 @@ const Blog = ({blog, handleAdded}) => {
     // console.log(name, id, title)
 
     return (
-        <div className='mb-5'>
+        <div>
             <div className="card bg-base-100 w-96 shadow-sm">
              <figure>
-                    <img
+                    <img className='h-[200px]'
                     src={cover_img}
                     alt="Shoes" />
                 </figure>
